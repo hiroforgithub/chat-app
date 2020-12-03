@@ -96,7 +96,7 @@ li {
   float: left;
 }
 .chat-room-user__btn {
-  float: right;
+  /* float: right; */
   display: inline-block;
   cursor: pointer;
 }
@@ -121,4 +121,9 @@ select {
   background-color: #434a54;
   height: 80px;
   width: 100%;
+}
+
+/* 最後の行に以下を追加 */
+.field_with_errors {
+  display: contents;
 }
